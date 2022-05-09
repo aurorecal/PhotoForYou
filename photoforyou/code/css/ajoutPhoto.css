@@ -1,0 +1,60 @@
+
+
+body {
+    margin-top: 200px;
+    background : beige;
+}
+
+.containerAP {
+    max-width: 1500px;
+    margin: 40px auto 0 auto;
+}
+.addimages{
+    min-height: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(91, 91, 91,0.15);
+    padding: 25px 50px;
+}
+.addimages h1{
+    text-align: center;
+}
+form{
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+.showimagesAP {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.photoforyou {
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(91, 91, 91,0.15);
+    flex-basis: 400px;
+    height: 220px;
+    padding: 10px;
+}
+
+.photoforyou__image {
+    width: 100%;
+    height: 200px;
+    box-shadow: inset 0 3px 6px rgba(91, 91, 91,0.15);
+}
+
+.photoforyou__image > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
